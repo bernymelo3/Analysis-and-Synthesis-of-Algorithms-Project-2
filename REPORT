@@ -1,0 +1,49 @@
+138,078,252 bytes allocated
+User time (seconds): 0.58
+System time (seconds): 0.03
+Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.61
+
+
+==37560== HEAP SUMMARY:
+==37560==     in use at exit: 136,999,848 bytes in 1,999,998 blocks
+==37560==   total heap usage: 2,000,005 allocs, 7 frees, 138,078,252 bytes allocated
+==37560== 
+==37560== LEAK SUMMARY:
+==37560==    definitely lost: 0 bytes in 0 blocks
+==37560==    indirectly lost: 0 bytes in 0 blocks
+==37560==      possibly lost: 0 bytes in 0 blocks
+==37560==    still reachable: 136,999,848 bytes in 1,999,998 blocks
+==37560==                       of which reachable via heuristic:
+==37560==                         newarray           : 56,000,008 bytes in 1 blocks
+==37560==         suppressed: 0 bytes in 0 blocks
+==37560== Rerun with --leak-check=full to see details of leaked memory
+==37560== 
+==37560== Use --track-origins=yes to see where uninitialised values come from
+==37560== For lists of detected and suppressed errors, rerun with: -s
+==37560== ERROR SUMMARY: 1000008 errors from 6 contexts (suppressed: 0 from 0)
+
+
+
+HEAP SUMMARY:
+==45663==     in use at exit: 136,999,848 bytes in 1,999,998 blocks
+==45663==   total heap usage: 2,000,005 allocs, 7 frees, 138,078,252 bytes allocated
+==45663== 
+==45663== LEAK SUMMARY:
+==45663==    definitely lost: 0 bytes in 0 blocks
+==45663==    indirectly lost: 0 bytes in 0 blocks
+==45663==      possibly lost: 0 bytes in 0 blocks
+==45663==    still reachable: 136,999,848 bytes in 1,999,998 blocks
+==45663==                       of which reachable via heuristic:
+==45663==                         newarray           : 56,000,008 bytes in 1 blocks
+==45663==         suppressed: 0 bytes in 0 blocks
+==45663== Rerun with --leak-check=full to see details of leaked memory
+==45663== 
+==45663== Use --track-origins=yes to see where uninitialised values come from
+==45663== For lists of detected and suppressed errors, rerun with: -s
+==45663== ERROR SUMMARY: 1000008 errors from 6 contexts (suppressed: 0 from 0)
+
+HEAP SUMMARY:
+==74605==     in use at exit: 47,999,976 bytes in 1,000,000 blocks
+==74605==   total heap usage: 2,000,003 allocs, 1,000,003 frees, 56,078,356 bytes allocated
+
+

@@ -1,0 +1,481 @@
+desc: --stacks=yes
+cmd: ./a.out
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=64986381
+mem_heap_B=58203704
+mem_heap_extra_B=451016
+mem_stacks_B=2424
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=104511979
+mem_heap_B=59155584
+mem_heap_extra_B=831784
+mem_stacks_B=2656
+heap_tree=detailed
+n4: 59155584 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 56000008 0x109299: main (main.cpp:98)
+ n1: 2078200 0x1093DA: allocate (new_allocator.h:121)
+  n1: 2078200 0x1093DA: allocate (alloc_traits.h:460)
+   n1: 2078200 0x1093DA: _M_get_node (stl_tree.h:561)
+    n1: 2078200 0x1093DA: _M_create_node<node*> (stl_tree.h:611)
+     n1: 2078200 0x1093DA: operator()<node*> (stl_tree.h:529)
+      n1: 2078200 0x1093DA: _M_insert_<node*, std::_Rb_tree<node*, node*, std::_Identity<node*>, std::less<node*>, std::allocator<node*> >::_Alloc_node> (stl_tree.h:1782)
+       n1: 2078200 0x1093DA: _M_insert_unique<node*> (stl_tree.h:2127)
+        n1: 2078200 0x1093DA: insert (stl_set.h:521)
+         n0: 2078200 0x1093DA: main (main.cpp:109)
+ n0: 1000000 0x109304: main (main.cpp:104)
+ n0: 77376 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=190494507
+mem_heap_B=61223944
+mem_heap_extra_B=1659128
+mem_stacks_B=2392
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=246832323
+mem_heap_B=62575064
+mem_heap_extra_B=2199576
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=320765932
+mem_heap_B=64348384
+mem_heap_extra_B=2908904
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=381168271
+mem_heap_B=65796984
+mem_heap_extra_B=3488344
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=464555906
+mem_heap_B=67797024
+mem_heap_extra_B=4288360
+mem_stacks_B=2656
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=519464290
+mem_heap_B=69113984
+mem_heap_extra_B=4815144
+mem_stacks_B=2656
+heap_tree=detailed
+n4: 69113984 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 56000008 0x109299: main (main.cpp:98)
+ n1: 12036600 0x1093DA: allocate (new_allocator.h:121)
+  n1: 12036600 0x1093DA: allocate (alloc_traits.h:460)
+   n1: 12036600 0x1093DA: _M_get_node (stl_tree.h:561)
+    n1: 12036600 0x1093DA: _M_create_node<node*> (stl_tree.h:611)
+     n1: 12036600 0x1093DA: operator()<node*> (stl_tree.h:529)
+      n1: 12036600 0x1093DA: _M_insert_<node*, std::_Rb_tree<node*, node*, std::_Identity<node*>, std::less<node*>, std::allocator<node*> >::_Alloc_node> (stl_tree.h:1782)
+       n1: 12036600 0x1093DA: _M_insert_unique<node*> (stl_tree.h:2127)
+        n1: 12036600 0x1093DA: insert (stl_set.h:521)
+         n0: 12036600 0x1093DA: main (main.cpp:109)
+ n0: 1000000 0x109304: main (main.cpp:104)
+ n0: 77376 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=602590436
+mem_heap_B=71107744
+mem_heap_extra_B=5612648
+mem_stacks_B=2424
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=658203885
+mem_heap_B=72441664
+mem_heap_extra_B=6146216
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=733562104
+mem_heap_B=74249224
+mem_heap_extra_B=6869240
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=797611580
+mem_heap_B=75785384
+mem_heap_extra_B=7483704
+mem_stacks_B=360
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=889539779
+mem_heap_B=77990144
+mem_heap_extra_B=8365608
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=948739792
+mem_heap_B=79410024
+mem_heap_extra_B=8933560
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=993337662
+mem_heap_B=80479584
+mem_heap_extra_B=9361384
+mem_stacks_B=368
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1053082206
+mem_heap_B=81912504
+mem_heap_extra_B=9934552
+mem_stacks_B=2656
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1096665893
+mem_heap_B=82957864
+mem_heap_extra_B=10352696
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1152305687
+mem_heap_B=84292304
+mem_heap_extra_B=10886472
+mem_stacks_B=352
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1209059401
+mem_heap_B=85653624
+mem_heap_extra_B=11431000
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1248822880
+mem_heap_B=86607264
+mem_heap_extra_B=11812456
+mem_stacks_B=2656
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1307304224
+mem_heap_B=88009904
+mem_heap_extra_B=12373512
+mem_stacks_B=2424
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1366952611
+mem_heap_B=89440704
+mem_heap_extra_B=12945832
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1447728053
+mem_heap_B=91378024
+mem_heap_extra_B=13720760
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1517721351
+mem_heap_B=93056824
+mem_heap_extra_B=14392280
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=1581945766
+mem_heap_B=94587504
+mem_heap_extra_B=15004552
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1647663172
+mem_heap_B=96152504
+mem_heap_extra_B=15630552
+mem_stacks_B=432
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1714810179
+mem_heap_B=97746864
+mem_heap_extra_B=16268296
+mem_stacks_B=632
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1783470149
+mem_heap_B=99375104
+mem_heap_extra_B=16919592
+mem_stacks_B=360
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=1853512012
+mem_heap_B=101036144
+mem_heap_extra_B=17584008
+mem_stacks_B=2424
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1924964704
+mem_heap_B=102730704
+mem_heap_extra_B=18261832
+mem_stacks_B=2424
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1979589963
+mem_heap_B=104026144
+mem_heap_extra_B=18780008
+mem_stacks_B=2656
+heap_tree=detailed
+n3: 104026144 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 56000008 0x109299: main (main.cpp:98)
+ n1: 46948760 0x1093DA: allocate (new_allocator.h:121)
+  n1: 46948760 0x1093DA: allocate (alloc_traits.h:460)
+   n1: 46948760 0x1093DA: _M_get_node (stl_tree.h:561)
+    n1: 46948760 0x1093DA: _M_create_node<node*> (stl_tree.h:611)
+     n1: 46948760 0x1093DA: operator()<node*> (stl_tree.h:529)
+      n1: 46948760 0x1093DA: _M_insert_<node*, std::_Rb_tree<node*, node*, std::_Identity<node*>, std::less<node*>, std::allocator<node*> >::_Alloc_node> (stl_tree.h:1782)
+       n1: 46948760 0x1093DA: _M_insert_unique<node*> (stl_tree.h:2127)
+        n1: 46948760 0x1093DA: insert (stl_set.h:521)
+         n0: 46948760 0x1093DA: main (main.cpp:109)
+ n0: 1077376 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=32
+#-----------
+time=2053096420
+mem_heap_B=105769464
+mem_heap_extra_B=19477336
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2128183836
+mem_heap_B=107550264
+mem_heap_extra_B=20189656
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2204783997
+mem_heap_B=109366944
+mem_heap_extra_B=20916328
+mem_stacks_B=2424
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=2246400001
+mem_heap_B=110354024
+mem_heap_extra_B=21311160
+mem_stacks_B=2656
+heap_tree=detailed
+n3: 110354024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 56000008 0x109299: main (main.cpp:98)
+ n1: 53276640 0x1093DA: allocate (new_allocator.h:121)
+  n1: 53276640 0x1093DA: allocate (alloc_traits.h:460)
+   n1: 53276640 0x1093DA: _M_get_node (stl_tree.h:561)
+    n1: 53276640 0x1093DA: _M_create_node<node*> (stl_tree.h:611)
+     n1: 53276640 0x1093DA: operator()<node*> (stl_tree.h:529)
+      n1: 53276640 0x1093DA: _M_insert_<node*, std::_Rb_tree<node*, node*, std::_Identity<node*>, std::less<node*>, std::allocator<node*> >::_Alloc_node> (stl_tree.h:1782)
+       n1: 53276640 0x1093DA: _M_insert_unique<node*> (stl_tree.h:2127)
+        n1: 53276640 0x1093DA: insert (stl_set.h:521)
+         n0: 53276640 0x1093DA: main (main.cpp:109)
+ n0: 1077376 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=2317247272
+mem_heap_B=112034224
+mem_heap_extra_B=21983240
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=2397756347
+mem_heap_B=113943504
+mem_heap_extra_B=22746952
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=2479879926
+mem_heap_B=115891104
+mem_heap_extra_B=23525992
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=2563662192
+mem_heap_B=117878064
+mem_heap_extra_B=24320776
+mem_stacks_B=2656
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=2649120923
+mem_heap_B=119904824
+mem_heap_extra_B=25131480
+mem_stacks_B=2424
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=2736294355
+mem_heap_B=121972344
+mem_heap_extra_B=25958488
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2825232485
+mem_heap_B=124081424
+mem_heap_extra_B=26802120
+mem_stacks_B=360
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2915945258
+mem_heap_B=126232824
+mem_heap_extra_B=27662680
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=3008480885
+mem_heap_B=128427504
+mem_heap_extra_B=28540552
+mem_stacks_B=360
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3102755097
+mem_heap_B=130666344
+mem_heap_extra_B=29436088
+mem_stacks_B=2392
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=3199063975
+mem_heap_B=132950264
+mem_heap_extra_B=30349656
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3247933459
+mem_heap_B=134109384
+mem_heap_extra_B=30813304
+mem_stacks_B=2392
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=3297299301
+mem_heap_B=135279984
+mem_heap_extra_B=31281544
+mem_stacks_B=2376
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=3366292827
+mem_heap_B=136916944
+mem_heap_extra_B=31936328
+mem_stacks_B=2656
+heap_tree=peak
+n3: 136916944 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 79839560 0x1093DA: allocate (new_allocator.h:121)
+  n1: 79839560 0x1093DA: allocate (alloc_traits.h:460)
+   n1: 79839560 0x1093DA: _M_get_node (stl_tree.h:561)
+    n1: 79839560 0x1093DA: _M_create_node<node*> (stl_tree.h:611)
+     n1: 79839560 0x1093DA: operator()<node*> (stl_tree.h:529)
+      n1: 79839560 0x1093DA: _M_insert_<node*, std::_Rb_tree<node*, node*, std::_Identity<node*>, std::less<node*>, std::allocator<node*> >::_Alloc_node> (stl_tree.h:1782)
+       n1: 79839560 0x1093DA: _M_insert_unique<node*> (stl_tree.h:2127)
+        n1: 79839560 0x1093DA: insert (stl_set.h:521)
+         n0: 79839560 0x1093DA: main (main.cpp:109)
+ n0: 56000008 0x109299: main (main.cpp:98)
+ n0: 1077376 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=3405818432
+mem_heap_B=138077224
+mem_heap_extra_B=32000448
+mem_stacks_B=464
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=3445344043
+mem_heap_B=138077224
+mem_heap_extra_B=32000448
+mem_stacks_B=464
+heap_tree=empty
